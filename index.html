@@ -8,36 +8,40 @@ and open the template in the editor.
 	<head>
 		<title>The Memory Card Game V1.0</title>
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="css/Styles_V2.css">
 	</head>
-	<body>
-		<div id="theMemGame">
+	<body style="background: url(img/Fondo-Mexicano-Infantil-01.jpg);">
+		<header style="background: url(img/Fondo-Mexicano-Infantil-04.jpg);">
+			<h1 class="text-center"> Memorama Mexicano Infantil </h1>
+		</header>
+		<div class="container-fluid" id="theMemGame">
 			<table>
 				<tr>   <!--   -->
-					<td><img src="img/Trasera_1.png" width="143" height="150" alt="" id="0" data-thevalue="void"></td>
-					<td><img src="img/Trasera_1.png" width="143" height="150" alt="" id="1" data-thevalue="void"></td>
-					<td><img src="img/Trasera_1.png" width="143" height="150" alt="" id="2" data-thevalue="void"></td>
-					<td><img src="img/Trasera_1.png" width="143" height="150" alt="" id="3" data-thevalue="void"></td>
+					<td><img src="img/Trasera_1.png" width="128" height="135" alt="" id="0" data-thevalue="void"></td>
+					<td><img src="img/Trasera_1.png" width="128" height="135" alt="" id="1" data-thevalue="void"></td>
+					<td><img src="img/Trasera_1.png" width="128" height="135" alt="" id="2" data-thevalue="void"></td>
+					<td><img src="img/Trasera_1.png" width="128" height="135" alt="" id="3" data-thevalue="void"></td>
 				</tr>
 				<!--   <tr><td style="border-style: none "><br> </td></tr> -->
 				<tr>
-					<td><img src="img/Trasera_1.png" width="143" height="150" alt="" id="4" data-thevalue="void"></td>
-					<td><img src="img/Trasera_1.png" width="143" height="150" alt="" id="5" data-thevalue="void"></td>
-					<td><img src="img/Trasera_1.png" width="143" height="150" alt="" id="6" data-thevalue="void"></td>
-					<td><img src="img/Trasera_1.png" width="143" height="150" alt="" id="7" data-thevalue="void"></td>
+					<td><img src="img/Trasera_1.png" width="128" height="135" alt="" id="4" data-thevalue="void"></td>
+					<td><img src="img/Trasera_1.png" width="128" height="135" alt="" id="5" data-thevalue="void"></td>
+					<td><img src="img/Trasera_1.png" width="128" height="135" alt="" id="6" data-thevalue="void"></td>
+					<td><img src="img/Trasera_1.png" width="128" height="135" alt="" id="7" data-thevalue="void"></td>
 				</tr>
 				<tr>
-					<td><img src="img/Trasera_1.png" width="143" height="150" alt="" id="8" data-thevalue="void"></td>
-					<td><img src="img/Trasera_1.png" width="143" height="150" alt="" id="9" data-thevalue="void"></td>
-					<td><img src="img/Trasera_1.png" width="143" height="150" alt="" id="10" data-thevalue="void"></td>
-					<td><img src="img/Trasera_1.png" width="143" height="150" alt="" id="11" data-thevalue="void"></td>
+					<td><img src="img/Trasera_1.png" width="128" height="135" alt="" id="8" data-thevalue="void"></td>
+					<td><img src="img/Trasera_1.png" width="128" height="135" alt="" id="9" data-thevalue="void"></td>
+					<td><img src="img/Trasera_1.png" width="128" height="135" alt="" id="10" data-thevalue="void"></td>
+					<td><img src="img/Trasera_1.png" width="128" height="135" alt="" id="11" data-thevalue="void"></td>
 				</tr>
 				<tr>
-					<td><img src="img/Trasera_1.png" width="143" height="150" alt="" id="12" data-thevalue="void"></td>
-					<td><img src="img/Trasera_1.png" width="143" height="150" alt="" id="13" data-thevalue="void"></td>
-					<td><img src="img/Trasera_1.png" width="143" height="150" alt="" id="14" data-thevalue="void"></td>
-					<td><img src="img/Trasera_1.png" width="143" height="150" alt="" id="15" data-thevalue="void"></td>
+					<td><img src="img/Trasera_1.png" width="128" height="135" alt="" id="12" data-thevalue="void"></td>
+					<td><img src="img/Trasera_1.png" width="128" height="135" alt="" id="13" data-thevalue="void"></td>
+					<td><img src="img/Trasera_1.png" width="128" height="135" alt="" id="14" data-thevalue="void"></td>
+					<td><img src="img/Trasera_1.png" width="128" height="135" alt="" id="15" data-thevalue="void"></td>
 				</tr>
 			</table>
 		</div>
@@ -46,7 +50,10 @@ and open the template in the editor.
 			<input type="button" value="Jugar!" id="theHitIt">
 		</div>
 		
-	<script src="js/jquery-1.6.3.min.js"></script>
+	<!--   <script src="js/jquery-1.6.3.min.js"></script> -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 	<script src="js/main_V2.js"></script>
 	</body>
 </html>
