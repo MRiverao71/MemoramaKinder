@@ -48,11 +48,9 @@ function f_BeginGame(evt) {
 
 	// Se asigna a cada "celda" el numero aleatorio que le corresponde.
 	for (var i = numCards-1 ; i >= 0; i--) {
-		//var tmpCard=aTheCards[i].name;
 		var tmpCard=aTheCards[i].imagen;
 		var tmpCell=document.getElementById(i.toString());
 		tmpCell.dataset.thevalue=tmpCard;
-		//console.log(tmpCell);
 	}
 }
 // Se comienza el desarrollo de la "selección" de cartas, es decir, el efecto de voltearlas que es simplemente
