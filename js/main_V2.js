@@ -136,7 +136,7 @@ function f_verified() {
 		}
 	}
 	if(theHits==numCards){
-		alert("Well Done!!");
+		alert("¡Bien Hecho!");
 	}
 }
 
