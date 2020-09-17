@@ -40,7 +40,7 @@ td{
 /* El elemento divición que contiene hasta el final un botón par acontrolar el juego, llamada "theCenter", se le
    indica que sus elementos texto deben de ir centrados.*/
 .theCenter{
-	text-align: center; margin-bottom: 25px;
+	text-align: center; margin-bottom: 2px;
 	
 	 /* border: 1px solid black; */
 }
