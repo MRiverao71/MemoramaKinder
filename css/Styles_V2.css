@@ -9,6 +9,9 @@ and open the template in the editor.
 */
 /* Estableciendo el estilo para el área del juego, se indica que la opacidad es del 0.3, con un tamaño de 600 por
    600px con un margen arriba y abajo en 0px y de derecha e izquierda 0px para el efecto de centrado.*/
+body{
+	margin: 0; padding: 0;
+}
 #theMemGame{
 	opacity: 0.3; width: 1000px; height: 550px; margin: 0px auto; margin-bottom: 5px;
 	/*border: 1px solid black;*/
@@ -40,7 +43,7 @@ td{
 /* El elemento divición que contiene hasta el final un botón par acontrolar el juego, llamada "theCenter", se le
    indica que sus elementos texto deben de ir centrados.*/
 .theCenter{
-	text-align: center; margin-bottom: 2px;
+	text-align: center; margin-bottom: 15px;
 	
 	 /* border: 1px solid black; */
 }
