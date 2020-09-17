@@ -2,22 +2,22 @@
 // Variables Globales.
 // Se inician variables para desarrollar posteriormente la lógica del juego.
 var aTheCards= new Array(
-				{name:'1', selected:false, imagen:"img/Buho_1.png"}, 
-				{name:'2', selected:false, imagen:"img/Abeja_1.png"},
-				{name:'3', selected:false, imagen:"img/Pajaro_1.png"}, 
-				{name:'4', selected:false, imagen:"img/Pelicano_1.png"},
-				{name:'5', selected:false, imagen:"img/Perro_1.png"}, 
-				{name:'6', selected:false, imagen:"img/Pollo_1.png"},
-				{name:'7', selected:false, imagen:"img/Tucan_1.png"}, 
-				{name:'8', selected:false, imagen:"img/2doPajaro_1.png"},
-				{name:'1', selected:false, imagen:"img/Buho_1.png"}, 
-				{name:'2', selected:false, imagen:"img/Abeja_1.png"},
-				{name:'3', selected:false, imagen:"img/Pajaro_1.png"}, 
-				{name:'4', selected:false, imagen:"img/Pelicano_1.png"},
-				{name:'5', selected:false, imagen:"img/Perro_1.png"}, 
-				{name:'6', selected:false, imagen:"img/Pollo_1.png"},
-				{name:'7', selected:false, imagen:"img/Tucan_1.png"}, 
-				{name:'8', selected:false, imagen:"img/2doPajaro_1.png"}
+				{name:'1', selected:false, imagen:"img/La-Bandera.png"}, 
+				{name:'2', selected:false, imagen:"img/La-Catrina.png"},
+				{name:'3', selected:false, imagen:"img/La-Munieca.png"}, 
+				{name:'4', selected:false, imagen:"img/La-Piniata.png"},
+				{name:'5', selected:false, imagen:"img/El-Charro.png"}, 
+				{name:'6', selected:false, imagen:"img/El-Mariachi.png"},
+				{name:'7', selected:false, imagen:"img/El-Rehilete.png"}, 
+				{name:'8', selected:false, imagen:"img/ El-Taco.png"},
+				{name:'1', selected:false, imagen:"img/La-Bandera.png"}, 
+				{name:'2', selected:false, imagen:"img/La-Catrina.png"},
+				{name:'3', selected:false, imagen:"img/La-Munieca.png"}, 
+				{name:'4', selected:false, imagen:"img/La-Piniata.png"},
+				{name:'5', selected:false, imagen:"img/El-Charro.png"}, 
+				{name:'6', selected:false, imagen:"img/El-Mariachi.png"},
+				{name:'7', selected:false, imagen:"img/El-Rehilete.png"}, 
+				{name:'8', selected:false, imagen:"img/ El-Taco.png"}
 				);
 var theTryes=0;
 var move1 = move2 = "";
