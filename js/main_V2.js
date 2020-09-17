@@ -9,7 +9,7 @@ var aTheCards= new Array(
 				{name:'5', selected:false, imagen:"img/El-Charro.png"}, 
 				{name:'6', selected:false, imagen:"img/El-Mariachi.png"},
 				{name:'7', selected:false, imagen:"img/El-Rehilete.png"}, 
-				{name:'8', selected:false, imagen:"img/ El-Taco.png"},
+				{name:'8', selected:false, imagen:"img/El-Taco.png"},
 				{name:'1', selected:false, imagen:"img/La-Bandera.png"}, 
 				{name:'2', selected:false, imagen:"img/La-Catrina.png"},
 				{name:'3', selected:false, imagen:"img/La-Munieca.png"}, 
@@ -17,7 +17,7 @@ var aTheCards= new Array(
 				{name:'5', selected:false, imagen:"img/El-Charro.png"}, 
 				{name:'6', selected:false, imagen:"img/El-Mariachi.png"},
 				{name:'7', selected:false, imagen:"img/El-Rehilete.png"}, 
-				{name:'8', selected:false, imagen:"img/ El-Taco.png"}
+				{name:'8', selected:false, imagen:"img/El-Taco.png"}
 				);
 var theTryes=0;
 var move1 = move2 = "";
