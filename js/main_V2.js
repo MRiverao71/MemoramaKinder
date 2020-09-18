@@ -85,7 +85,7 @@ function f_turnCard(e) {
 	player2 = tmpEvent.target.id;
 	move2 = tmpEvent.target.dataset.thevalue;
 	
-	console.log("player2->" + player2 + ", move2->" + move2);
+	//console.log("player2->" + player2 + ", move2->" + move2);
 	
 	if(move1!==""){
 		
