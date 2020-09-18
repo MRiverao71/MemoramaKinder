@@ -23,6 +23,7 @@ var theTryes=0;
 var move1 = move2 = "";
 var player1 = player2 = "";
 var numCards = 16;
+
 // Función "central" ya que, las operaciones empiezan en cuanto se cargan todos los elementos del "ViewPort"
 window.onload = function () {
 	document.getElementById("theHitIt").onclick=f_BeginGame;
@@ -44,8 +45,6 @@ window.onload = function () {
 		theH1.css("width",theWidth-30);
 		theBtn.css("margin-left", theWidth/2);
 	}
-	
-	
 	
 	window.onresize = function (evt) {
 		theWidth=window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth;
@@ -70,7 +69,19 @@ function f_BeginGame(evt) {
 	// Deja de estar opaco el tablero.
 	var tmpGameBoard=document.getElementById("theMemGame");
 	tmpGameBoard.style.opacity=1;
-	$("#theHitIt").hide();
+	//$("#theHitIt").hide();
+	$("#theHitIt").addClass("disabled") ;
+	
+	//Si la leyenda del botón es "!Otra Vez!", se -voltean- las cartas
+	if($("#theHitIt").attr("value")=="¡Otra Vez!" ){
+		theTryes=0;
+		move1 = move2 = "";
+		player1 = player2 = "";
+		for (var i = numCards-1 ; i >= 0; i--) {
+			$(`#${i.toString()}`).attr("src","img/Trasera_1.png");
+			aTheCards[i].selected = false;
+		}
+	}
 	
 	// Se mesclan las cartas.
 	aTheCards.sort(function() { return Math.random() - 0.5; });
@@ -134,7 +145,7 @@ function f_turnCard(e) {
 				f_changeCard(player1,"img/Trasera_1.png");
 				f_changeCard(player2,"img/Trasera_1.png");
 				f_CleanVariables();
-			},800);
+			},900);
 			f_changeCard(player2,move2);
 		}
 		
@@ -164,6 +175,8 @@ function f_verified() {
 	}
 	if(theHits==numCards){
 		alert("¡Bien Hecho!");
+		$("#theHitIt").attr("value","¡Otra Vez!");
+		$("#theHitIt").removeClass("disabled") ;
 	}
 }
 
