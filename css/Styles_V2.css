@@ -11,9 +11,16 @@ and open the template in the editor.
    600px con un margen arriba y abajo en 0px y de derecha e izquierda 0px para el efecto de centrado.*/
 body{
 	margin: 0; padding: 0;
+	background: url(../img/Fondo-Mexicano-Infantil-01.jpg);
 }
 header{
 	width: 100%;
+}
+footer{
+	background: url(../img/Fondo-Mexicano-Infantil-04.jpg);
+}
+h1{
+	/*background: url(../img/Fondo-Mexicano-Infantil-04.jpg);*/
 }
 #theMemGame{
 	opacity: 0.3; width: 1000px; height: 550px; margin: 0px auto; margin-bottom: 5px;
