@@ -45,8 +45,6 @@ window.onload = function () {
 		theBtn.css("margin-left", theWidth/2);
 	}
 	
-	
-	
 	window.onresize = function (evt) {
 		theWidth=window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth;
 		if(theWidth <= 770){
@@ -70,7 +68,8 @@ function f_BeginGame(evt) {
 	// Deja de estar opaco el tablero.
 	var tmpGameBoard=document.getElementById("theMemGame");
 	tmpGameBoard.style.opacity=1;
-	$("#theHitIt").hide();
+	//$("#theHitIt").hide();
+	$("#theHitIt").addClass("disabled") ;
 	
 	// Se mesclan las cartas.
 	aTheCards.sort(function() { return Math.random() - 0.5; });
