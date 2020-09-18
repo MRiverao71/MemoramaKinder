@@ -12,6 +12,9 @@ and open the template in the editor.
 body{
 	margin: 0; padding: 0;
 }
+header{
+	width: 100%;
+}
 #theMemGame{
 	opacity: 0.3; width: 1000px; height: 550px; margin: 0px auto; margin-bottom: 5px;
 	/*border: 1px solid black;*/
