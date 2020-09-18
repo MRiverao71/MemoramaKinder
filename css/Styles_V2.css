@@ -19,7 +19,11 @@ header{
 footer{
 	background: url(../img/Fondo-Mexicano-Infantil-04.jpg);
 }
-h1{
+h1 img{
+
+	display:block;
+	margin:auto;
+
 	/*background: url(../img/Fondo-Mexicano-Infantil-04.jpg);*/
 }
 #theMemGame{
