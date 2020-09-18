@@ -18,13 +18,14 @@ header{
 }
 footer{
 	background: url(../img/Fondo-Mexicano-Infantil-04.jpg);
+	height: 3.5%;
+}
+h1{
+	/*width: 820px;*/
+	background: url(../img/Fondo-Mexicano-Infantil-04.jpg);
 }
 h1 img{
-
-	display:block;
-	margin:auto;
-
-	/*background: url(../img/Fondo-Mexicano-Infantil-04.jpg);*/
+	display:block; 	margin:auto; 
 }
 #theMemGame{
 	opacity: 0.3; width: 1000px; height: 550px; margin: 0px auto; margin-bottom: 5px;

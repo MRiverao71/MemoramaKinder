@@ -30,6 +30,35 @@ window.onload = function () {
 	for (var i = numCards-1 ; i >= 0; i--) {
 		document.getElementById(i.toString()).onclick = f_turnCard;
 	}
+	
+	var theWidth=window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth;
+
+	theH1 = $("h1");
+	theBtn = $("#theHitIt");
+	
+	if(theWidth <= 770){
+		theH1.css("width", "820");
+		theBtn.css("margin-left", "410");
+	}
+	else{
+		theH1.css("width",theWidth-30);
+		theBtn.css("margin-left", theWidth/2);
+	}
+	
+	
+	
+	window.onresize = function (evt) {
+		theWidth=window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth;
+		if(theWidth <= 770){
+			theH1.css("width", "820");
+			theBtn.css("margin-left", "410");
+			}
+		else{
+			theH1.css("width",theWidth-30);
+			theBtn.css("margin-left", theWidth/2);
+		}
+		//console.log("Tamanio->" + theWidth);
+	};
 
 };
 // En esta función se llevan a cabo 3 cosas; la primera es quitar lo opaco a toda el área del tablero
