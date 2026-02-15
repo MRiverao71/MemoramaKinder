@@ -56,10 +56,15 @@ td{
 	font-size: 40px; font-style: italic ;
 	color: whitesmoke; text-align: center;
 }
-/* El elemento divición que contiene hasta el final un botón par acontrolar el juego, llamada "theCenter", se le
+/* El elemento división que contiene hasta el final un botón par acontrolar el juego, llamada "theCenter", se le
    indica que sus elementos texto deben de ir centrados.*/
 .theCenter{
 	text-align: center; margin-bottom: 15px;
 	
 	 /* border: 1px solid black; */
+}
+
+.btn-xl{
+	font-size: 1.8rem;
+    padding: 15px 40px;
 }
